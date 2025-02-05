@@ -1,0 +1,27 @@
+/* Default styles (applies to all devices) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 📱 Mobile Phones (Portrait) */
+  @media only screen and (max-width: 480px) {
+   
+  }
+  
+  /* 📱 Mobile Phones (Landscape) */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+  
+  }
+  
+  /* 📟 Tablets (Portrait & Landscape) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+  }
+  
+  /* 💻 Laptops & Small Desktops */
+  @media only screen and (min-width: 1025px) {
+    
+  }
+  
