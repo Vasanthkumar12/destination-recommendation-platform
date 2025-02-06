@@ -1,13 +1,24 @@
 import './App.css'
-import { Home } from './pages/Home'
-import DisplayDestination from './pages/DisplayIdealDestinations'
-// import TravelQuestionnaire from './pages/TravelQuestionnaire'
+
+import NavBar from "../src/common/NavBar";
+import Landing from "../src/components/Landing";
+import Features from './pages/Features';
+import Footer from './common/Footer';
+import About from "./pages/About";
+import Contact  from './pages/Contact';
+
 function App() {
 
   return (
     <>
       {/* <Home /> */}
-      <DisplayDestination/>
+      <NavBar/>
+      <Landing/>
+      <Features/>
+      <Footer/>
+      <About/>
+      <Contact/>
+      {/* <DisplayDestination/> */}
   
     </>
   )
