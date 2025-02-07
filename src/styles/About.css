@@ -1,0 +1,117 @@
+/* Overall container */
+.about-container {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-hero p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  /* Content Section */
+  .about-content {
+    background: white;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    color: #0073e6;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    color: #444;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Features Grid */
+  .features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .feature {
+    background: #f7f7f7;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+  }
+  
+  .feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .feature h3 {
+    font-size: 18px;
+    color: #0073e6;
+    margin-bottom: 8px;
+  }
+  
+  .feature p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Call-to-Action */
+  .cta-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0073e6;
+    margin-top: 20px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #ff7b00;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .features-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature {
+      width: 90%;
+    }
+  }
+  
