@@ -1,34 +1,43 @@
 nav {
-    background-color:white;
+    /* background-color:rgb(216, 209, 209); */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 80px;
-    padding:20px;
+    padding:30px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    position: sticky;
+    top: 0px;
 }
 #nav-links {
-    flex: 1;
     display: flex;
     justify-content: center;
 }
 .nav-link {
-    padding-left: 50px;
-    font-size: 20px;
+    padding-left: 100px;
+    font-size: 30px;
     font-weight: bolder;
-    color: var(--white);
+    color: rgb(142, 47, 3);
     text-decoration: none;
+    text-shadow: 1.2px 1.2px rgb(3, 35, 142);
 }
 .project-logo {
-    width:100px;
-    height:100px;
+    width:145px;
+    height:145px;
     border-radius: 50%;
-
+    padding-top: 10px;
 }
 .menu {
     width: 10px;
     height: 2.4px;
     margin-bottom: 3px;
     background-color: rgb(255, 77, 0);
+  }
+
+  .active {
+    text-decoration: underline;
+    color: #ba8d33;
+    text-shadow: 1.2px 1.2px #ba8d33;
   }
 /* 📱 Mobile Phones (Portrait) */
 @media only screen and (max-width: 480px) {

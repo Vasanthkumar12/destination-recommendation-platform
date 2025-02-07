@@ -1,0 +1,41 @@
+#landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 77vh;
+    margin-left: -120px;
+}
+#landing > p {
+    color: rgb(255, 251, 0);
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    width: 500px;
+    text-align: center;
+    text-shadow: 1.2px 1.4px rgb(3, 35, 142);
+}
+#state {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 270px;
+    color: rgb(123, 124, 125);
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+#state:focus {
+    outline: none;
+    
+}
+#ideal-dest{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 270px;
+    margin-top: 40px;
+    background-color: burlywood;
+    color: rgb(69, 31, 31);
+}

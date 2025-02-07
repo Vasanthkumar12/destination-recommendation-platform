@@ -1,0 +1,227 @@
+[
+    {
+      "state": "Uttar Pradesh",
+      "place": "Taj Mahal",
+      "category": "Culture",
+      "budget": "5000",
+      "rating": "5"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "place": "Varanasi Ghats",
+      "category": "Spiritual",
+      "budget": "4000",
+      "rating": "4.8"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "place": "Fatehpur Sikri",
+      "category": "Historical",
+      "budget": "4500",
+      "rating": "4.7"
+    },
+    {
+      "state": "Uttar Pradesh",
+      "place": "Sarnath",
+      "category": "Spiritual",
+      "budget": "3500",
+      "rating": "4.6"
+    },
+    {
+      "state": "Delhi",
+      "place": "Red Fort",
+      "category": "Historical",
+      "budget": "3000",
+      "rating": "4.7"
+    },
+    {
+      "state": "Delhi",
+      "place": "India Gate",
+      "category": "Monument",
+      "budget": "2000",
+      "rating": "4.5"
+    },
+    {
+      "state": "Delhi",
+      "place": "Qutub Minar",
+      "category": "Heritage",
+      "budget": "2500",
+      "rating": "4.8"
+    },
+    {
+      "state": "Delhi",
+      "place": "Lotus Temple",
+      "category": "Spiritual",
+      "budget": "2000",
+      "rating": "4.7"
+    },
+    {
+      "state": "Rajasthan",
+      "place": "Jaipur City Palace",
+      "category": "Heritage",
+      "budget": "6000",
+      "rating": "4.8"
+    },
+    {
+      "state": "Rajasthan",
+      "place": "Udaipur Lake Palace",
+      "category": "Luxury",
+      "budget": "8000",
+      "rating": "5"
+    },
+    {
+      "state": "Rajasthan",
+      "place": "Jaisalmer Fort",
+      "category": "Heritage",
+      "budget": "5500",
+      "rating": "4.8"
+    },
+    {
+      "state": "Rajasthan",
+      "place": "Mount Abu",
+      "category": "Hill Station",
+      "budget": "6500",
+      "rating": "4.7"
+    },
+    {
+      "state": "Maharashtra",
+      "place": "Gateway of India",
+      "category": "Landmark",
+      "budget": "3000",
+      "rating": "4.6"
+    },
+    {
+      "state": "Maharashtra",
+      "place": "Ajanta & Ellora Caves",
+      "category": "Heritage",
+      "budget": "7000",
+      "rating": "4.9"
+    },
+    {
+      "state": "Maharashtra",
+      "place": "Lonavala",
+      "category": "Hill Station",
+      "budget": "4000",
+      "rating": "4.8"
+    },
+    {
+      "state": "Maharashtra",
+      "place": "Shirdi",
+      "category": "Spiritual",
+      "budget": "5000",
+      "rating": "4.9"
+    },
+    {
+      "state": "Goa",
+      "place": "Baga Beach",
+      "category": "Beach",
+      "budget": "5000",
+      "rating": "4.7"
+    },
+    {
+      "state": "Goa",
+      "place": "Dudhsagar Falls",
+      "category": "Nature",
+      "budget": "4000",
+      "rating": "4.8"
+    },
+    {
+      "state": "Goa",
+      "place": "Aguada Fort",
+      "category": "Heritage",
+      "budget": "3500",
+      "rating": "4.6"
+    },
+    {
+      "state": "Goa",
+      "place": "Calangute Beach",
+      "category": "Beach",
+      "budget": "4500",
+      "rating": "4.7"
+    },
+    {
+      "state": "Kerala",
+      "place": "Alleppey Backwaters",
+      "category": "Nature",
+      "budget": "6000",
+      "rating": "5"
+    },
+    {
+      "state": "Kerala",
+      "place": "Munnar Tea Gardens",
+      "category": "Scenic",
+      "budget": "5000",
+      "rating": "4.9"
+    },
+    {
+      "state": "Kerala",
+      "place": "Kovalam Beach",
+      "category": "Beach",
+      "budget": "4500",
+      "rating": "4.8"
+    },
+    {
+      "state": "Kerala",
+      "place": "Thekkady Wildlife Sanctuary",
+      "category": "Wildlife",
+      "budget": "5500",
+      "rating": "4.7"
+    },
+    {
+      "state": "Tamil Nadu",
+      "place": "Meenakshi Temple",
+      "category": "Spiritual",
+      "budget": "4000",
+      "rating": "4.8"
+    },
+    {
+      "state": "Tamil Nadu",
+      "place": "Marina Beach",
+      "category": "Beach",
+      "budget": "2000",
+      "rating": "4.5"
+    },
+    {
+      "state": "Tamil Nadu",
+      "place": "Ooty",
+      "category": "Hill Station",
+      "budget": "5000",
+      "rating": "4.8"
+    },
+    {
+      "state": "Tamil Nadu",
+      "place": "Kanyakumari",
+      "category": "Scenic",
+      "budget": "4500",
+      "rating": "4.7"
+    },
+    {
+      "state": "Karnataka",
+      "place": "Hampi Ruins",
+      "category": "Historical",
+      "budget": "5000",
+      "rating": "4.9"
+    },
+    {
+      "state": "Karnataka",
+      "place": "Coorg Hills",
+      "category": "Nature",
+      "budget": "6000",
+      "rating": "4.8"
+    },
+    {
+      "state": "Karnataka",
+      "place": "Mysore Palace",
+      "category": "Heritage",
+      "budget": "5500",
+      "rating": "4.9"
+    },
+    {
+      "state": "Karnataka",
+      "place": "Jog Falls",
+      "category": "Nature",
+      "budget": "5000",
+      "rating": "4.8"
+    }
+  ]
+  
