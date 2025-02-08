@@ -24,6 +24,7 @@
     color: rgb(123, 124, 125);
     margin-top: 20px;
     background-color: aliceblue;
+    cursor: pointer;
 }
 #state:focus {
     outline: none;
@@ -38,4 +39,5 @@
     margin-top: 40px;
     background-color: burlywood;
     color: rgb(69, 31, 31);
+    cursor: pointer;
 }

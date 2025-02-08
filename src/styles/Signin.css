@@ -1,0 +1,82 @@
+#signin {
+    background-image: url("../assets/img 1.jpg")
+}
+#signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82.8vh;
+    /* background: linear-gradient(135deg, #667eea, #764ba2); */
+  }
+  
+  .signin-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    background: #667eea;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #764ba2;
+  }
+  
+  .errmsg {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .valid {
+    color: green;
+    margin-left: 10px;
+  }
+  
+  .invalid {
+    color: red;
+    margin-left: 10px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .line a {
+    color: #667eea;
+    text-decoration: none;
+  }
+  
+  .line a:hover {
+    text-decoration: underline;
+  }
+  
