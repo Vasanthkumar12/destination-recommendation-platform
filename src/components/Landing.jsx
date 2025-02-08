@@ -3,7 +3,21 @@ import axios from 'axios'
 import '../styles/Landing.css'
 
 export const Landing = () => {
-const [states, setStates] = useState([])
+  const [states, setStates] = useState([])
+  let paddingsLeft = [0, 35, 0, 170, 40]
+  let paddingsTop = [0, 41, 24, 45, 10]
+  const [padTop, setPadTop] = useState(paddingsTop[0])
+  const [padLeft, setPadLeft] = useState(paddingsLeft[0])
+
+  useEffect(() => {
+      let index = 0
+      let interval = setInterval(() => {
+        index = (index+1) % 5
+        setPadLeft(paddingsLeft[index])
+        setPadTop(paddingsTop[index])
+      }, 4000)
+      return () => clearInterval(interval)
+    }, [])
 
   useEffect(() => {
     const fetchStates = async () => {
@@ -37,10 +51,17 @@ const [states, setStates] = useState([])
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData)
+    axios.get("https://states-c4c13-default-rtdb.firebaseio.com/places.json")
+    .then(res => console.log(res.data))
   }
   return (
-    <div id="landing">
+    <div 
+      id="landing"
+      style ={{
+        paddingLeft: padLeft,
+        paddingTop: padTop
+      }}
+    >
         <p>Choose the state to find your ideal destinations</p>
         <form onSubmit={handleSubmit}>
           <select onChange={handleChange} name="state" id="state">
