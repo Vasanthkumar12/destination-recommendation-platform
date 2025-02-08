@@ -10,9 +10,9 @@ import itinerary from "../assets/itinerary.png";
 
 export const About = () => {
   return (
-    <div>
-      <div style = {{backgroundColor: 'white',position: 'sticky', top: "0px",boxShadow: "0px 5px 15px grey"}}>
-        <NavBar/>
+    <div className="about-page"> {/* Apply background to entire page */}
+      <div className="navbar-container">
+          <NavBar/>
       </div> 
       <div className="about-container">
         <div className="about-hero">
