@@ -1,64 +1,86 @@
-/* Overall container */
+/* Apply background image to the entire page */
+body {
+  background: url("../assets/img 1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* Navbar should have a transparent background */
+.navbar-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0px 5px 15p;
+}
+
+/* Ensure text inside the navbar remains visible */
 .about-container {
-    background: linear-gradient(to right, #4facfe, #00f2fe);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 20px;
-    font-family: "Arial", sans-serif;
-  }
+  border-radius: 10px;
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+  max-width: 1000px;
+  margin: auto;
+
+}
+/* Ensure the navbar remains white */
+.navbar-container { 
+  position: sticky;
+  top: 0;
   
-  /* Hero Section */
-  .about-hero {
+}
+/* Hero Section */
+.about-hero {
     text-align: center;
     margin-bottom: 30px;
   }
   
-  .about-hero h1 {
+.about-hero h1 {
     font-size: 36px;
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   }
   
-  .about-hero p {
+.about-hero p {
     font-size: 18px;
     color: white;
     margin-top: 10px;
   }
   
   /* Content Section */
-  .about-content {
-    background: white;
+.about-content {
+    background: rgb(255, 255, 255);
     padding: 30px;
-    max-width: 800px;
+    max-width: 1000px;
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     text-align: center;
   }
   
-  .about-content h2 {
+.about-content h2 {
     color: #0073e6;
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  .about-content p {
+.about-content p {
     color: #444;
     font-size: 16px;
     line-height: 1.6;
   }
   
   /* Features Grid */
-  .features-container {
+.features-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
   }
   
-  .feature {
+.feature {
     background: #f7f7f7;
     width: 250px;
     padding: 20px;
@@ -69,36 +91,36 @@
     text-align: center;
   }
   
-  .feature:hover {
+.feature:hover {
     transform: scale(1.05);
   }
   
-  .feature img {
+.feature img {
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
   }
   
-  .feature h3 {
+.feature h3 {
     font-size: 18px;
     color: #0073e6;
     margin-bottom: 8px;
   }
   
-  .feature p {
+.feature p {
     font-size: 14px;
     color: #555;
   }
   
   /* Call-to-Action */
-  .cta-text {
+.cta-text {
     font-size: 18px;
     font-weight: bold;
     color: #0073e6;
     margin-top: 20px;
   }
   
-  .highlight {
+.highlight {
     font-weight: bold;
     color: #ff7b00;
   }
@@ -110,7 +132,7 @@
       align-items: center;
     }
   
-    .feature {
+  .feature {
       width: 90%;
     }
   }
