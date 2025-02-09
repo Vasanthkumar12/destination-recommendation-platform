@@ -22,7 +22,7 @@ export const Welcome = () => {
       setBgImage(images[index])
       setPadLeft(paddingsLeft[index])
       setPadTop(paddingsTop[index])
-    }, 3000)
+    }, 4000)
     return () => clearInterval(interval)
   }, [])
 
