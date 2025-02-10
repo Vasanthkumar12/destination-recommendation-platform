@@ -98,4 +98,3 @@ We have been used the following tech stacks in our project
 - Firebase
 - Other libraries/modules
 
-![image](https://github.com/user-attachments/assets/b7e75e83-ffbe-476e-9a35-c7cf1830c6f0)
