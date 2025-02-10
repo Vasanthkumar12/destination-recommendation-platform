@@ -206,7 +206,7 @@ const DisplayIdealDestinations = () => {
             _hover={{ transform: "translateY(-4px)", boxShadow: "lg" }}
           >
             <Image
-              src="/src/assets/img 4.jpg"
+              src="https://holidays.tripfactory.com/blogs/wp-content/uploads/sites/6/2024/06/Bernese-Oberland-Region.webp"
               alt={place.place}
               objectFit="cover"
               h="200px"
