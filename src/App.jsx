@@ -6,6 +6,7 @@ import { About } from "./pages/About"
 import { Contact } from "./pages/Contact"
 import { Register } from "./pages/Register"
 import { SignIn } from "./pages/SignIn"
+import DisplayIdealDestinations from './pages/DisplayIdealDestinations'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/signin' element={<SignIn />}></Route>
+        <Route path='/:state' element={<DisplayIdealDestinations/>}></Route>
       </Routes>
     </>
   )

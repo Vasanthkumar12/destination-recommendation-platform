@@ -1,8 +1,10 @@
+import { useNavigate } from 'react-router-dom'
 import React, { useEffect,useState } from 'react'
 import axios from 'axios'
 import '../styles/Landing.css'
 
 export const Landing = () => {
+  const navigate=useNavigate();
   const [states, setStates] = useState([])
   let paddingsLeft = [0, 35, 0, 170, 40]
   let paddingsTop = [0, 41, 24, 45, 10]
@@ -53,7 +55,9 @@ export const Landing = () => {
     e.preventDefault();
     axios.get("https://states-c4c13-default-rtdb.firebaseio.com/places.json")
     .then(res => console.log(res.data))
+    navigate(`/${formData.state}`)
   }
+
   return (
     <div 
       id="landing"
